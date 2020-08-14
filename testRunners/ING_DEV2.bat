@@ -1,0 +1,1 @@
+npm test -- --params.client ing --params.host DEV2 --suite ing
