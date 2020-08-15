@@ -51,7 +51,8 @@ When('Download Tax statement using HIN number', async () => {
     const endRow = config.endRow + 1 ;
     // @ts-ignore
     for (let i = config.startRow; i < endRow ; i++){
-       let hinNumber = `00${await getValueFromExcelCell(worksheet,`D${i}`)}`;
+       // @ts-ignore
+        let hinNumber = `00${await getValueFromExcelCell(worksheet,`${config.column}${i}`)}`;
         await new BaseComponents().enterIntoInputField('input[id*="documentSearchCriteria_hin"]',hinNumber);
         // @ts-ignore
         await new BaseComponents().enterIntoInputField('input[id*="autoComplete_Input"]',config.company);
