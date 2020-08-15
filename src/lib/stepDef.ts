@@ -5,7 +5,7 @@ import {BaseComponents} from "./BaseComponents";
 import {CustomWait} from "./wrappers/CustomWait";
 
 
-import * as config from "../config.json";
+import * as config from "../../src/config.json";
 import {getValueFromExcelCell, loadExcelSheet, savePDF} from "./utils";
 
 
@@ -22,11 +22,14 @@ BeforeAll(async () => {
     await browser.manage().timeouts().implicitlyWait(1000);
     await browser.manage().window().maximize() ;
 
+    // @ts-ignore
     await browser.navigate().to(config.baseURL);
 
     // Enter UserName
+    // @ts-ignore
     await new BaseComponents().enterIntoInputField('input[id*="UserName"]',config.userName);
     // Enter Password
+    // @ts-ignore
     await new BaseComponents().enterIntoInputField('input[id*="Password"]',config.password);
     // Hit Submit
     await new BaseComponents().clickOnWebElem('input[type="submit"]');
@@ -44,11 +47,13 @@ When('Download Tax statement using HIN number', async () => {
 
     // @ts-ignore
     const worksheet = await loadExcelSheet(config.excelFile,1);
+    // @ts-ignore
     const endRow = config.endRow + 1 ;
     // @ts-ignore
     for (let i = config.startRow; i < endRow ; i++){
        let hinNumber = `00${await getValueFromExcelCell(worksheet,`D${i}`)}`;
         await new BaseComponents().enterIntoInputField('input[id*="documentSearchCriteria_hin"]',hinNumber);
+        // @ts-ignore
         await new BaseComponents().enterIntoInputField('input[id*="autoComplete_Input"]',config.company);
         await browser.sleep(1000);
         await new CustomBrowserDriver().pressEnter();

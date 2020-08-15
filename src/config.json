@@ -4,7 +4,6 @@
   "password": "",
   "company": "VHY",
   "excelFile": "VHY_TRAN40ADJ_2020",
-  "startRow": "258",
-  "endRow": "267"
-
+  "startRow": "11",
+  "endRow": "15"
 }
