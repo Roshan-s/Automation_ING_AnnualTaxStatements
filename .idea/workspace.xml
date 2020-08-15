@@ -20,9 +20,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b9f59c4-7020-456a-9b1f-0aa096007cc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Admin_Landing_Page.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/BaseComponents.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/stepDef.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/resuableStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/resuableStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protractor.conf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/conf.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/env/environmentProps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/env/environmentProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/postHooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/preHooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/AdminMemberSearchPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/BasePage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/BeneficiariesPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/CentrelinkSchedulePage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/LoginPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/MoneyInPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/PensionPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/ProfilePage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/ReversionaryPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/ShareTradingPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/ValuationPage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/adminLandingPageStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/centrelinkScheduleStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/contributeToYourSuperStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/contributionMixStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/dataBaseQueryStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/investmentValuationStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/myBeneficiariesStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/pensionDetailsStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/resuableStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/reversionaryDetailsStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/tradeShareAndExchangeTradedFundsStepDef.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Admin_Landing_Page.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Beneficiary_Details.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Centrelink_Schedule.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Contribute_To_Your_Super.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Contribution_Mix.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Investment_Valuation.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Pension_Details.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Reversionary_Details.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Trade_Share_and_Exchange_Traded_Funds.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/statewide/Beneficiary_Details.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/statewide/Contribute_To_Your_Super.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/database/DataBaseCall.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/database/descriptionCodeInformation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/dateUtil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/excelUtil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/fileSystemUtil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/pdfUtil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/reportUtil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/soap/SoapCall.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomAssertion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/wrappers/CustomAssertion.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomBrowserDriver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/wrappers/CustomBrowserDriver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomLogger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/wrappers/CustomLogger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomSoapDriver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomSqlDriver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomWait.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/wrappers/CustomWait.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testRunners/ING_DEV1.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testRunners/ING_DEV2.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testRunners/StateWide_DEV1.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testRunners/StateWide_DEV2.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,57 +118,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\AutomationProject\super-aol-e2e-automation\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\financeTaxStatement\Automation_ING_AnnualTaxStatements\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\financeTaxStatement\Automation_ING_AnnualTaxStatements\src\lib" />
+      <recent name="C:\financeTaxStatement\Automation_ING_AnnualTaxStatements\src" />
+      <recent name="C:\financeTaxStatement\Automation_ING_AnnualTaxStatements\src\wrappers" />
+      <recent name="C:\financeTaxStatement\Automation_ING_AnnualTaxStatements" />
       <recent name="C:\AutomationProject\super-aol-e2e-automation\src\utils" />
-      <recent name="C:\AutomationProject\super-aol-e2e-automation" />
-      <recent name="C:\AutomationProject\super-aol-e2e-automation\src\wrappers" />
-      <recent name="C:\AutomationProject\super-aol-e2e-automation\src\utils\database" />
-      <recent name="C:\AutomationProject\super-aol-e2e-automation\src\utils\soap" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.ING_DEV1">
-    <configuration name="ING_DEV1" type="js.build_tools.npm">
+  <component name="RunManager">
+    <configuration name="Download_Tax_Statements" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="test" />
-      <arguments value="-- --params.clientName ing --params.hostName DEV1 --suite ing" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="ING_DEV2" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="test" />
-      <arguments value="-- --params.clientName ing --params.hostName DEV2 --suite ing" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="StateWide_DEV1" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="test" />
-      <arguments value="-- --params.clientName statewide --params.hostName DEV1 --suite statewide" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="StateWide_DEV2" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="test" />
-      <arguments value="-- --params.clientName statewide --params.hostName DEV2 --suite statewide" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="npm.ING_DEV1" />
-      <item itemvalue="npm.ING_DEV2" />
-      <item itemvalue="npm.StateWide_DEV1" />
-      <item itemvalue="npm.StateWide_DEV2" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -146,6 +177,7 @@
       <workItem from="1595890264790" duration="27806000" />
       <workItem from="1596153807034" duration="17086000" />
       <workItem from="1597380540440" duration="1924000" />
+      <workItem from="1597463954471" duration="11925000" />
     </task>
     <servers />
   </component>
@@ -204,13 +236,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="349" y="361" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596589115341" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596589121827">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597477413913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596286175695" />
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596589121827" />
     <state x="2334" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594947246900" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596421133649" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597477413913" />
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597459037656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597459037656" />
     <state x="2560" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594249170617">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -219,37 +255,37 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2627" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593747386312" />
-    <state width="1877" height="882" key="GridCell.Tab.0.bottom" timestamp="1597369711196">
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1597476791734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596532282596" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596589483880" />
     <state width="1877" height="438" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596592960560" />
-    <state width="1877" height="882" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597369711196" />
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597476791734" />
     <state width="1877" height="435" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
-    <state width="1877" height="882" key="GridCell.Tab.0.center" timestamp="1597369711196">
+    <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1597476791734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596532282596" />
     <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596589483880" />
     <state width="1877" height="438" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596592960560" />
-    <state width="1877" height="882" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597369711196" />
+    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597476791734" />
     <state width="1877" height="435" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
-    <state width="1877" height="882" key="GridCell.Tab.0.left" timestamp="1597369711195">
+    <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1597476791733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596532282596" />
     <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596589483880" />
     <state width="1877" height="438" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596592960560" />
-    <state width="1877" height="882" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597369711195" />
+    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597476791733" />
     <state width="1877" height="435" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
-    <state width="1877" height="882" key="GridCell.Tab.0.right" timestamp="1597369711196">
+    <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1597476791734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596532282596" />
     <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596589483880" />
     <state width="1877" height="438" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596592960560" />
-    <state width="1877" height="882" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597369711196" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597476791734" />
     <state width="1877" height="435" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596162898208">
       <screen x="0" y="0" width="1920" height="1040" />

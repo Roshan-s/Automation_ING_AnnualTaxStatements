@@ -1,0 +1,10 @@
+{
+  "baseURL": "https://www.intermediaryonline.com/Login.aspx",
+  "userName": "",
+  "password": "",
+  "company": "VHY",
+  "excelFile": "VHY_TRAN40ADJ_2020",
+  "startRow": "258",
+  "endRow": "267"
+
+}

@@ -1,1 +1,0 @@
-npm test -- --params.client statewide --params.host DEV1 --suite statewide

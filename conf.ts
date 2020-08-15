@@ -1,7 +1,7 @@
 import {browser, Config} from "protractor";
 
-import {currentDateAndTime, generateHtmlReport} from "./src/utils/reportUtil";
-import {createNewDir} from "./src/utils/fileSystemUtil";
+
+
 
 
 /**
@@ -30,7 +30,7 @@ export let config: Config = {
                 '--disable-popup-blocking',
                 'disable-infobars'
             ]
-        }
+        },
 
         // browserName: 'firefox',
         //
@@ -40,7 +40,7 @@ export let config: Config = {
         //         'args': ['--safe-mode']
         //     }
         // },
-
+        'plugins.plugins_disabled': ['Chrome PDF Viewer'],
 
     },
 
@@ -56,11 +56,10 @@ export let config: Config = {
     restartBrowserBetweenTests: false,
 
     suites: {
-        ing: '../src/testCases/ing/**/*.feature',
-        statewide: '../src/testCases/statewide/**/*.feature',
+        downloadTaxStatement: '../src/lib/**/*.feature',
     },
 
-    suite: 'Please specify a suite to run. Available options - ing, statewide',
+  //  suite: 'Please specify a suite to run. Available options - ing, statewide',
 
 
     // specs: [`../src/testCases/**/*.feature`],
@@ -76,7 +75,7 @@ export let config: Config = {
         require: ['./**/*.js'],  // require step definition files before executing features
         tags: ['@onlyThis'],                      // <string[]> (expression) only execute the features or scenarios with tags matching the expression
         strict: true,                  // <boolean> fail if there are any undefined or pending steps
-        format: ["json:./report.json", require.resolve('cucumber-pretty')],            // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
+    //    format: ["json:./report.json", require.resolve('cucumber-pretty')],            // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
         'dry-run': false,              // <boolean> invoke formatters without executing steps
         compiler: []                 // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
 
@@ -85,7 +84,7 @@ export let config: Config = {
     plugins: [],
 
     onPrepare: () => {
-        createNewDir(`./reports/${browser.params.clientName}/${browser.params.hostName}/${currentDateAndTime}/`);
+     //   createNewDir(`./reports/${browser.params.clientName}/${browser.params.hostName}/${currentDateAndTime}/`);
         },
 
     afterLaunch: () => {
@@ -94,9 +93,6 @@ export let config: Config = {
 
     onComplete: () => {
 
-        // new reportExtension().generateHtmlReport();
-
-        generateHtmlReport();
 
     }
 
