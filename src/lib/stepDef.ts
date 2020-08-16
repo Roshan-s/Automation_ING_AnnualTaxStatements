@@ -7,6 +7,7 @@ import {CustomWait} from "./wrappers/CustomWait";
 
 import * as config from "../../src/config.json";
 import {getValueFromExcelCell, loadExcelSheet, savePDF} from "./utils";
+import {e2eConsoleBrowserLogInfo, e2eConsoleLogError} from "./wrappers/CustomLogger";
 
 
 
@@ -40,6 +41,7 @@ BeforeAll(async () => {
 
 
 When('Download Tax statement using HIN number', async () => {
+    let failedHin: string[] = [];
     // Go to page Document Search
     let pageName = `https://www.intermediaryonline.com/MemberPages/DocumentSearch.aspx`;
     await  browser.executeScript((( pageName) => window.location.href = (`${pageName}`)), pageName);
@@ -48,7 +50,7 @@ When('Download Tax statement using HIN number', async () => {
     // @ts-ignore
     const worksheet = await loadExcelSheet(config.excelFile,1);
     // @ts-ignore
-    const endRow = config.endRow + 1 ;
+    const endRow = ++config.endRow ;
     // @ts-ignore
     for (let i = config.startRow; i < endRow ; i++){
        // @ts-ignore
@@ -61,7 +63,12 @@ When('Download Tax statement using HIN number', async () => {
         await new CustomBrowserDriver().pressTab(6);
         await new CustomBrowserDriver().pressEnter();
 
-        await new BaseComponents().clickOnWebElem(`img[alt="Issuer Annual Tax Statement"]`);
+        try{
+            await new BaseComponents().clickOnWebElem(`img[alt="Issuer Annual Tax Statement"]`);
+        }catch (e){
+            await failedHin.push(hinNumber);
+            continue;
+        }
 
         await new CustomBrowserDriver().switchToNewWindow(1);
         await browser.sleep(500);
@@ -73,6 +80,7 @@ When('Download Tax statement using HIN number', async () => {
         await new CustomBrowserDriver().closeCurrentWindowAndSwitchToMain();
         await browser.sleep(1000);
     }
+    await e2eConsoleBrowserLogInfo(`Failed to download the following HIN(s) : ${JSON.stringify(failedHin)}`);
 });
 
 
